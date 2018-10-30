@@ -6,6 +6,7 @@ category:Bubble Sort
 
 //no. of comparisons = (n^2)/2
 //no. of swaps = (n^2)/4          (in worst case in reversed sorted array     no. of swaps = no. of comparisons = (n^2)/2)
+//complexity:n(n-1)/n ---> O(n^2) 
 public void bubbleSort()
 {
     int out, in;
